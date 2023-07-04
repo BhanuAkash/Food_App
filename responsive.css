@@ -1,0 +1,53 @@
+@media screen and (max-width:770px) {
+
+    /* Navbar start  */
+    nav p, nav div{
+        display: none;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+    }
+    /* Navbar end  */
+
+    /* Head start  */
+    #head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #head .text-part{
+        position: static;
+        width: 300px;
+        padding: 25px;
+    }
+    #head .text-part h2{
+        font-size: 30px;
+    }
+    #head .text-part p{
+        font-size: 15px;
+    }
+    /* Head end  */
+
+    /* Section start  */
+    section .box{
+        width: 250px;
+    }
+    section .box img{
+        width: 200px;
+        height: 200px;
+     }
+     /* Section end  */
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    nav ul a {
+        font-size: 18px;
+       
+    }
+    nav div i {
+        font-size: 18px;
+    }
+}
